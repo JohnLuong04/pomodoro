@@ -1,0 +1,62 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: bisque;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    gap: 15px;
+}
+
+#history{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+}
+
+#timer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    height: 65%;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#button-container{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+#timer{
+    font-size: 160px;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#start{
+    background-color: #5CE65C;
+}
+
+#pause{
+    background-color: #FF7081;
+}
+
+#history p{
+    font-size: 30px;
+}
