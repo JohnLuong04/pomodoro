@@ -57,6 +57,16 @@ button{
     background-color: #FF7081;
 }
 
+#start:hover{
+    color: white;
+    border-color: white;
+}
+
+#pause:hover{
+    color: white;
+    border-color: white;
+}
+
 #history p{
-    font-size: 30px;
+    font-size: 20px;
 }
